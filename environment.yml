@@ -1,0 +1,11 @@
+# conda env create --file environment.yml
+name: soccer_stats
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - pip
+  - python=3.7
+  - pip:
+    

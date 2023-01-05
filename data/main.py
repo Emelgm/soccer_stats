@@ -47,3 +47,22 @@ try:
         print(f'Respuesta HTTP: {league_page.status_code}')
 except IndexError as e:
     print('\nindex out of range\ntry again')
+
+# detalle de partidos
+web_league = BeautifulSoup(league_page.text, 'lxml')
+scores = web_league.find('div', attrs={
+    'class': 'inactive'
+}).find_all('li', attrs={
+    'class': 'full'
+})
+# detalle de marcadores
+link_score = url + scores[1].a.get('href')
+link_matches = requests.get(link_score)
+web_scores = BeautifulSoup(link_matches.text, 'lxml')
+matches = web_scores.find('tbody').find_all('td')
+home_team = [link.get_text() for link in matches]
+output=[home_team[i:i + 13] for i in range(0, len(home_team), 13)]
+# guardar en archivo
+with open('./data/raw/matches.csv', 'w') as f:
+    f.write(str(output))
+print(output)

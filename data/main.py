@@ -62,7 +62,72 @@ web_scores = BeautifulSoup(link_matches.text, 'lxml')
 matches = web_scores.find('tbody').find_all('td')
 home_team = [link.get_text() for link in matches]
 output=[home_team[i:i + 13] for i in range(0, len(home_team), 13)]
+out_dict = {
+    'dia': '',
+    'fecha': '',
+    'hora': '',
+    'equipo_local': '',
+    'gx': '',
+    'marcador': '',
+    'gy': '',
+    'equipo_visitante': '',
+    'p': '',
+    'estadio': '',
+    'arbitro': '',
+    'informe': '',
+    'x': ''
+}
+
+# names_list = ['dia', 'fecha', 'hora', 'equipo_local', 'gx',
+#     'marcador','gy', 'equipo_visitante', 'p', 'estadio', 'arbritro',
+#     'informe'
+# ]
+
+dia_list = []
+fecha_list = []
+hora_list = []
+el_list = []
+gx_list = []
+marcador_list = []
+gy_list = []
+ev_list = []
+p_list = []
+estadio_list = []
+arbitro_list = []
+inf_list = []
+x_list = []
+for i in output:
+    dia_list.append(i[0])
+    out_dict['dia'] = dia_list
+    fecha_list.append(i[1])
+    out_dict['fecha'] = fecha_list
+    hora_list.append(i[2])
+    out_dict['hora'] = hora_list
+    el_list.append(i[3])
+    out_dict['equipo_local'] = el_list
+    gx_list.append(i[4])
+    out_dict['gx'] = gx_list
+    marcador_list.append(i[5])
+    out_dict['marcador'] = marcador_list
+    gy_list.append(i[6])
+    out_dict['gy'] = gy_list
+    ev_list.append(i[7])
+    out_dict['equipo_visitante'] = ev_list
+    p_list.append(i[8])
+    out_dict['p'] = p_list
+    estadio_list.append(i[9])
+    out_dict['estadio'] = estadio_list
+    arbitro_list.append(i[10])
+    out_dict['arbitro'] = arbitro_list
+    inf_list.append(i[11])
+    out_dict['informe'] = inf_list
+    x_list.append(i[12])
+    out_dict['x'] = x_list
+#print(out_dict)
+
+df = pd.DataFrame(out_dict)
+print(df.head())
+
 # guardar en archivo
-with open('./data/raw/matches.csv', 'w') as f:
-    f.write(str(output))
-print(output)
+df.to_csv('./data/raw/matches.csv')
+

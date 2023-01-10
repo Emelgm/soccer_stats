@@ -57,10 +57,47 @@ def detail_matches(url, url_web):
     link_matches = requests.get(link_score)
     web_scores = BeautifulSoup(link_matches.text, 'lxml')
     matches = web_scores.find('tbody').find_all('td')
+    #rows = web_scores.find('tbody').find_all('tr')
+    links_info = []
+    for link in matches:
+        if link.a:
+            links_info.append(link.a.get('href'))
+    output_links = [links_info[i:i + 5] for i in range(0, len(links_info),5)]
+    # equipos
     home_team = [link.get_text() for link in matches]
-    output=[home_team[i:i + 13] for i in range(0, len(home_team), 13)]
+    output_text=[home_team[i:i + 13] for i in range(0, len(home_team), 13)]
 
-    return output
+    for item in output_text:
+        for i in item:
+            #print(i)
+            if i == '':
+                item.remove(i)
+        # n += 1
+        # print(n)
+        # print('sublista: ',item)
+        # print('longitud: ', len(item))
+        if len(item)<=6:
+            output_text.remove(item)
+
+    return output_text, output_links
+
+
+def team_detail(url, detail_matches, detail_link):
+    #print(detail_matches)
+    details = list(zip(detail_matches, detail_link))
+    detail_team = []
+    for item in details:
+        detail_team.append(item[0]+item[1])
+    select_team = input('Choose team: ')
+    team = []
+    
+    for idx,item in enumerate(detail_team):
+        for i in item:
+            if select_team == i:
+                team.append(detail_team[idx])
+
+    return team[15]
+
 
 def df_create(df_dict):
     out_dict = {
@@ -124,7 +161,7 @@ def df_create(df_dict):
     #print(df.head())
 
     # guardar en archivo
-    df.to_csv('./data/raw/matches.csv')
+    #df.to_csv('./data/raw/matches.csv')
 
     return df
 
@@ -136,8 +173,10 @@ def run():
     print(f'Respuesta HTTP: {link_page.status_code}')
     dict_list = leagues_list(url, link_page)
     league_pague = links_list(dict_list)
-    output = detail_matches(url, league_pague)
-    df_create(output)
+    output_text, output_link = detail_matches(url, league_pague)
+
+    #df_create(output)
+    print(team_detail(url, output_text, output_link))
 
 
 if __name__=='__main__':

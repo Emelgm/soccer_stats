@@ -1,2 +1,340 @@
-,Fecha,Hora,Local,Marcador,Visitante,Asistencia,Sedes,Árbitro,Informe del partido
-0,2023-01-11,22:00 ,Real Madrid,(4) 1–1 (3),Valencia,"50,492",King Fahd International Stadium,Alejandro Hernández,Informe del partido
+,Día,Fecha,Hora,Local,xG,Marcador,Visitante,Asistencia,Sedes,Árbitro,Informe del partido
+0,Vie,2022-08-05,20:30 ,Eint Frankfurt,4.0,1–6,Bayern Munich,"51,500",Deutsche Bank Park,Deniz Aytekin,Informe del partido
+1,Sáb,2022-08-06,15:30 ,Wolfsburg,0.8,2–2,Werder Bremen,"28,015",Volkswagen Arena,Sascha Stegemann,Informe del partido
+2,Sáb,2022-08-06,15:30 ,Augsburg,1.3,0–4,Freiburg,"25,310",WWK Arena,Bastian Dankert,Informe del partido
+3,Sáb,2022-08-06,15:30 ,Union Berlin,0.3,3–1,Hertha BSC,"22,012",Stadion An der Alten Försterei,Marco Fritz,Informe del partido
+4,Sáb,2022-08-06,15:30 ,M'Gladbach,0.1,3–1,Hoffenheim,"49,659",Stadion im Borussia-Park,Daniel Siebert,Informe del partido
+5,Sáb,2022-08-06,15:30 ,Bochum,1.4,1–2,Mainz 05,"24,110",Vonovia Ruhrstadion,Felix Zwayer,Informe del partido
+6,Sáb,2022-08-06,18:30 ,Dortmund,1.3,1–0,Leverkusen,"81,365",Signal Iduna Park,Felix Brych,Informe del partido
+7,Dom,2022-08-07,15:30 ,Stuttgart,1.6,1–1,RB Leipzig,"46,000",Mercedes-Benz Arena,Tobias Stieler,Informe del partido
+8,Dom,2022-08-07,17:30 ,Köln,0.2,3–1,Schalke 04,"50,000",RheinEnergieSTADION,Robert Schröder,Informe del partido
+9,,,,,,,,,,,
+10,Vie,2022-08-12,20:30 ,Freiburg,1.1,1–3,Dortmund,"34,700",Europa-Park Stadion,Tobias Welz,Informe del partido
+11,Sáb,2022-08-13,15:30 ,Hoffenheim,1.5,3–2,Bochum,"17,005",PreZero Arena,Patrick Ittrich,Informe del partido
+12,Sáb,2022-08-13,15:30 ,Werder Bremen,1.4,2–2,Stuttgart,"41,000",Wohninvest-Weserstadion,Robert Hartmann,Informe del partido
+13,Sáb,2022-08-13,15:30 ,Leverkusen,0.4,1–2,Augsburg,"22,903",BayArena,Benjamin Cortus,Informe del partido
+14,Sáb,2022-08-13,15:30 ,RB Leipzig,1.5,2–2,Köln,"49,579",Red Bull Arena,Benjamin Brand,Informe del partido
+15,Sáb,2022-08-13,15:30 ,Hertha BSC,1.6,1–1,Eint Frankfurt,"45,000",Olympiastadion Berlin,Frank Willenborg,Informe del partido
+16,Sáb,2022-08-13,18:30 ,Schalke 04,1.3,2–2,M'Gladbach,"62,271",Veltins-Arena,Sven Jablonski,Informe del partido
+17,Dom,2022-08-14,15:30 ,Mainz 05,0.4,0–0,Union Berlin,"25,009",Mewa Arena,Daniel Schlager,Informe del partido
+18,Dom,2022-08-14,17:30 ,Bayern Munich,0.5,2–0,Wolfsburg,"75,000",Allianz Arena,Harm Osmers,Informe del partido
+19,,,,,,,,,,,
+20,Vie,2022-08-19,20:30 ,M'Gladbach,1.0,1–0,Hertha BSC,"48,411",Stadion im Borussia-Park,Matthias Jöllenbeck,Informe del partido
+21,Sáb,2022-08-20,15:30 ,Leverkusen,1.5,0–3,Hoffenheim,"26,300",BayArena,Tobias Reichel,Informe del partido
+22,Sáb,2022-08-20,15:30 ,Augsburg,2.1,1–2,Mainz 05,"23,755",WWK Arena,Sascha Stegemann,Informe del partido
+23,Sáb,2022-08-20,15:30 ,Stuttgart,0.6,0–1,Freiburg,"47,500",Mercedes-Benz Arena,Felix Brych,Informe del partido
+24,Sáb,2022-08-20,15:30 ,Dortmund,1.3,2–3,Werder Bremen,"81,365",Signal Iduna Park,Florian Badstübner,Informe del partido
+25,Sáb,2022-08-20,15:30 ,Wolfsburg,1.1,0–0,Schalke 04,"26,959",Volkswagen Arena,Felix Zwayer,Informe del partido
+26,Sáb,2022-08-20,18:30 ,Union Berlin,0.9,2–1,RB Leipzig,"21,056",Stadion An der Alten Försterei,Deniz Aytekin,Informe del partido
+27,Dom,2022-08-21,15:30 ,Eint Frankfurt,0.3,1–1,Köln,"50,800",Deutsche Bank Park,Martin Petersen,Informe del partido
+28,Dom,2022-08-21,17:30 ,Bochum,2.9,0–7,Bayern Munich,"26,000",Vonovia Ruhrstadion,Daniel Siebert,Informe del partido
+29,,,,,,,,,,,
+30,Vie,2022-08-26,20:30 ,Freiburg,1.2,1–0,Bochum,"32,800",Europa-Park Stadion,Marco Fritz,Informe del partido
+31,Sáb,2022-08-27,15:30 ,Hoffenheim,0.6,1–0,Augsburg,"17,206",PreZero Arena,Tobias Welz,Informe del partido
+32,Sáb,2022-08-27,15:30 ,Mainz 05,1.9,0–3,Leverkusen,"28,500",Mewa Arena,Christian Dingert,Informe del partido
+33,Sáb,2022-08-27,15:30 ,RB Leipzig,0.5,2–0,Wolfsburg,"41,243",Red Bull Arena,Bastian Dankert,Informe del partido
+34,Sáb,2022-08-27,15:30 ,Schalke 04,1.1,1–6,Union Berlin,"62,271",Veltins-Arena,Robert Hartmann,Informe del partido
+35,Sáb,2022-08-27,15:30 ,Hertha BSC,2.7,0–1,Dortmund,"62,142",Olympiastadion Berlin,Tobias Stieler,Informe del partido
+36,Sáb,2022-08-27,18:30 ,Bayern Munich,0.5,1–1,M'Gladbach,"75,000",Allianz Arena,Daniel Schlager,Informe del partido
+37,Dom,2022-08-28,15:30 ,Köln,2.1,0–0,Stuttgart,"50,000",RheinEnergieSTADION,Harm Osmers,Informe del partido
+38,Dom,2022-08-28,17:30 ,Werder Bremen,1.8,3–4,Eint Frankfurt,"41,000",Wohninvest-Weserstadion,Patrick Ittrich,Informe del partido
+39,,,,,,,,,,,
+40,Vie,2022-09-02,20:30 ,Dortmund,0.5,1–0,Hoffenheim,"79,300",Signal Iduna Park,Daniel Siebert,Informe del partido
+41,Sáb,2022-09-03,15:30 ,Stuttgart,2.3,1–1,Schalke 04,"47,500",Mercedes-Benz Arena,Florian Badstübner,Informe del partido
+42,Sáb,2022-09-03,15:30 ,Bochum,2.0,0–2,Werder Bremen,"25,800",Vonovia Ruhrstadion,Robert Schröder,Informe del partido
+43,Sáb,2022-09-03,15:30 ,Union Berlin,1.5,1–1,Bayern Munich,"22,012",Stadion An der Alten Försterei,Frank Willenborg,Informe del partido
+44,Sáb,2022-09-03,15:30 ,Leverkusen,1.9,2–3,Freiburg,"26,853",BayArena,Sascha Stegemann,Informe del partido
+45,Sáb,2022-09-03,15:30 ,Wolfsburg,2.7,2–4,Köln,"25,654",Volkswagen Arena,Matthias Jöllenbeck,Informe del partido
+46,Sáb,2022-09-03,18:30 ,Eint Frankfurt,0.2,4–0,RB Leipzig,"49,700",Deutsche Bank Park,Felix Brych,Informe del partido
+47,Dom,2022-09-04,15:30 ,Augsburg,2.1,0–2,Hertha BSC,"25,789",WWK Arena,Harm Osmers,Informe del partido
+48,Dom,2022-09-04,17:30 ,M'Gladbach,0.6,0–1,Mainz 05,"51,210",Stadion im Borussia-Park,Deniz Aytekin,Informe del partido
+49,,,,,,,,,,,
+50,Vie,2022-09-09,20:30 ,Werder Bremen,1.0,0–1,Augsburg,"41,000",Wohninvest-Weserstadion,Martin Petersen,Informe del partido
+51,Sáb,2022-09-10,15:30 ,Bayern Munich,1.2,2–2,Stuttgart,"75,000",Allianz Arena,Christian Dingert,Informe del partido
+52,Sáb,2022-09-10,15:30 ,Eint Frankfurt,1.0,0–1,Wolfsburg,"49,000",Deutsche Bank Park,Tobias Reichel,Informe del partido
+53,Sáb,2022-09-10,15:30 ,Hertha BSC,1.3,2–2,Leverkusen,"40,643",Olympiastadion Berlin,Benjamin Brand,Informe del partido
+54,Sáb,2022-09-10,15:30 ,Hoffenheim,0.7,4–1,Mainz 05,"20,114",PreZero Arena,Daniel Schlager,Informe del partido
+55,Sáb,2022-09-10,15:30 ,RB Leipzig,0.6,3–0,Dortmund,"47,069",Red Bull Arena,Sven Jablonski,Informe del partido
+56,Sáb,2022-09-10,18:30 ,Schalke 04,1.1,3–1,Bochum,"62,041",Veltins-Arena,Felix Zwayer,Informe del partido
+57,Dom,2022-09-11,15:30 ,Köln,1.5,0–1,Union Berlin,"49,500",RheinEnergieSTADION,Benjamin Cortus,Informe del partido
+58,Dom,2022-09-11,17:30 ,Freiburg,1.2,0–0,M'Gladbach,"34,700",Europa-Park Stadion,Tobias Stieler,Informe del partido
+59,,,,,,,,,,,
+60,Vie,2022-09-16,20:30 ,Mainz 05,0.4,1–1,Hertha BSC,"25,300",Mewa Arena,Frank Willenborg,Informe del partido
+61,Sáb,2022-09-17,15:30 ,Dortmund,0.1,1–0,Schalke 04,"81,100",Signal Iduna Park,Felix Brych,Informe del partido
+62,Sáb,2022-09-17,15:30 ,Leverkusen,2.1,1–1,Werder Bremen,"30,210",BayArena,Tobias Welz,Informe del partido
+63,Sáb,2022-09-17,15:30 ,Stuttgart,1.0,1–3,Eint Frankfurt,"47,500",Mercedes-Benz Arena,Daniel Siebert,Informe del partido
+64,Sáb,2022-09-17,15:30 ,Augsburg,1.6,1–0,Bayern Munich,"30,660",WWK Arena,Marco Fritz,Informe del partido
+65,Sáb,2022-09-17,18:30 ,M'Gladbach,0.9,3–0,RB Leipzig,"50,186",Stadion im Borussia-Park,Patrick Ittrich,Informe del partido
+66,Dom,2022-09-18,15:30 ,Union Berlin,0.3,2–0,Wolfsburg,"22,012",Stadion An der Alten Försterei,Robert Schröder,Informe del partido
+67,Dom,2022-09-18,17:30 ,Bochum,2.1,1–1,Köln,"25,800",Vonovia Ruhrstadion,Bastian Dankert,Informe del partido
+68,Dom,2022-09-18,19:30 ,Hoffenheim,1.0,0–0,Freiburg,"24,233",PreZero Arena,Deniz Aytekin,Informe del partido
+69,,,,,,,,,,,
+70,Vie,2022-09-30,20:30 ,Bayern Munich,0.8,4–0,Leverkusen,"75,000",Allianz Arena,Tobias Stieler,Informe del partido
+71,Sáb,2022-10-01,15:30 ,Freiburg,1.6,2–1,Mainz 05,"34,700",Europa-Park Stadion,Sven Jablonski,Informe del partido
+72,Sáb,2022-10-01,15:30 ,Eint Frankfurt,1.0,2–0,Union Berlin,"50,500",Deutsche Bank Park,Sascha Stegemann,Informe del partido
+73,Sáb,2022-10-01,15:30 ,Köln,2.5,3–2,Dortmund,"50,000",RheinEnergieSTADION,Harm Osmers,Informe del partido
+74,Sáb,2022-10-01,15:30 ,Wolfsburg,1.5,3–2,Stuttgart,"24,125",Volkswagen Arena,Felix Zwayer,Informe del partido
+75,Sáb,2022-10-01,15:30 ,RB Leipzig,0.1,4–0,Bochum,"44,403",Red Bull Arena,Florian Badstübner,Informe del partido
+76,Sáb,2022-10-01,18:30 ,Werder Bremen,2.3,5–1,M'Gladbach,"42,100",Wohninvest-Weserstadion,Matthias Jöllenbeck,Informe del partido
+77,Dom,2022-10-02,15:30 ,Hertha BSC,1.4,1–1,Hoffenheim,"41,653",Olympiastadion Berlin,Christian Dingert,Informe del partido
+78,Dom,2022-10-02,17:30 ,Schalke 04,1.4,2–3,Augsburg,"60,328",Veltins-Arena,Daniel Schlager,Informe del partido
+79,,,,,,,,,,,
+80,Vie,2022-10-07,20:30 ,Hoffenheim,1.3,1–2,Werder Bremen,"25,410",PreZero Arena,Benjamin Cortus,Informe del partido
+81,Sáb,2022-10-08,15:30 ,Bochum,0.9,3–0,Eint Frankfurt,"24,850",Vonovia Ruhrstadion,Martin Petersen,Informe del partido
+82,Sáb,2022-10-08,15:30 ,Mainz 05,1.0,1–1,RB Leipzig,"26,100",Mewa Arena,Felix Brych,Informe del partido
+83,Sáb,2022-10-08,15:30 ,Augsburg,1.8,1–1,Wolfsburg,"26,220",WWK Arena,Daniel Siebert,Informe del partido
+84,Sáb,2022-10-08,15:30 ,Leverkusen,0.4,4–0,Schalke 04,"30,210",BayArena,Tobias Reichel,Informe del partido
+85,Sáb,2022-10-08,18:30 ,Dortmund,0.6,2–2,Bayern Munich,"81,365",Signal Iduna Park,Deniz Aytekin,Informe del partido
+86,Dom,2022-10-09,15:30 ,M'Gladbach,1.3,5–2,Köln,"54,042",Stadion im Borussia-Park,Sven Jablonski,Informe del partido
+87,Dom,2022-10-09,17:30 ,Hertha BSC,1.0,2–2,Freiburg,"40,481",Olympiastadion Berlin,Robert Schröder,Informe del partido
+88,Dom,2022-10-09,19:30 ,Stuttgart,0.7,0–1,Union Berlin,"43,250",Mercedes-Benz Arena,Bastian Dankert,Informe del partido
+89,,,,,,,,,,,
+90,Vie,2022-10-14,20:30 ,Schalke 04,3.2,0–3,Hoffenheim,"59,811",Veltins-Arena,Florian Badstübner,Informe del partido
+91,Sáb,2022-10-15,15:30 ,Wolfsburg,0.8,2–2,M'Gladbach,"26,701",Volkswagen Arena,Benjamin Cortus,Informe del partido
+92,Sáb,2022-10-15,15:30 ,Eint Frankfurt,0.4,5–1,Leverkusen,"49,700",Deutsche Bank Park,Frank Willenborg,Informe del partido
+93,Sáb,2022-10-15,15:30 ,Werder Bremen,1.1,0–2,Mainz 05,"41,000",Wohninvest-Weserstadion,Robert Hartmann,Informe del partido
+94,Sáb,2022-10-15,15:30 ,Stuttgart,1.6,4–1,Bochum,"45,400",Mercedes-Benz Arena,Christian Dingert,Informe del partido
+95,Sáb,2022-10-15,18:30 ,RB Leipzig,2.3,3–2,Hertha BSC,"47,069",Red Bull Arena,Harm Osmers,Informe del partido
+96,Dom,2022-10-16,15:30 ,Köln,0.4,3–2,Augsburg,"49,000",RheinEnergieSTADION,Felix Zwayer,Informe del partido
+97,Dom,2022-10-16,17:30 ,Union Berlin,0.8,2–0,Dortmund,"22,012",Stadion An der Alten Försterei,Tobias Stieler,Informe del partido
+98,Dom,2022-10-16,19:30 ,Bayern Munich,0.3,5–0,Freiburg,"75,000",Allianz Arena,Sascha Stegemann,Informe del partido
+99,,,,,,,,,,,
+100,Vie,2022-10-21,20:30 ,Mainz 05,0.7,5–0,Köln,"31,610",Mewa Arena,Matthias Jöllenbeck,Informe del partido
+101,Sáb,2022-10-22,15:30 ,Leverkusen,1.2,2–2,Wolfsburg,"26,294",BayArena,Felix Brych,Informe del partido
+102,Sáb,2022-10-22,15:30 ,Hoffenheim,2.4,0–2,Bayern Munich,"30,150",PreZero Arena,Sven Jablonski,Informe del partido
+103,Sáb,2022-10-22,15:30 ,Dortmund,1.0,5–0,Stuttgart,"81,365",Signal Iduna Park,Daniel Schlager,Informe del partido
+104,Sáb,2022-10-22,15:30 ,Freiburg,0.5,2–0,Werder Bremen,"34,700",Europa-Park Stadion,Bastian Dankert,Informe del partido
+105,Sáb,2022-10-22,15:30 ,Augsburg,2.4,3–3,RB Leipzig,"25,109",WWK Arena,Robert Schröder,Informe del partido
+106,Sáb,2022-10-22,18:30 ,M'Gladbach,1.9,1–3,Eint Frankfurt,"53,019",Stadion im Borussia-Park,Daniel Siebert,Informe del partido
+107,Dom,2022-10-23,15:30 ,Bochum,1.0,2–1,Union Berlin,"25,460",Vonovia Ruhrstadion,Deniz Aytekin,Informe del partido
+108,Dom,2022-10-23,17:30 ,Hertha BSC,0.6,2–1,Schalke 04,"60,165",Olympiastadion Berlin,Martin Petersen,Informe del partido
+109,,,,,,,,,,,
+110,Vie,2022-10-28,20:30 ,Werder Bremen,0.4,1–0,Hertha BSC,"42,100",Wohninvest-Weserstadion,Tobias Reichel,Informe del partido
+111,Sáb,2022-10-29,15:30 ,Bayern Munich,2.2,6–2,Mainz 05,"75,000",Allianz Arena,Felix Zwayer,Informe del partido
+112,Sáb,2022-10-29,15:30 ,Wolfsburg,0.5,4–0,Bochum,"24,037",Volkswagen Arena,Robert Hartmann,Informe del partido
+113,Sáb,2022-10-29,15:30 ,RB Leipzig,0.1,2–0,Leverkusen,"45,598",Red Bull Arena,Sven Jablonski,Informe del partido
+114,Sáb,2022-10-29,15:30 ,Stuttgart,1.0,2–1,Augsburg,"46,400",Mercedes-Benz Arena,Tobias Stieler,Informe del partido
+115,Sáb,2022-10-29,18:30 ,Eint Frankfurt,0.6,1–2,Dortmund,"50,000",Deutsche Bank Park,Sascha Stegemann,Informe del partido
+116,Dom,2022-10-30,15:30 ,Union Berlin,1.0,2–1,M'Gladbach,"22,012",Stadion An der Alten Försterei,Harm Osmers,Informe del partido
+117,Dom,2022-10-30,17:30 ,Schalke 04,2.3,0–2,Freiburg,"61,115",Veltins-Arena,Christian Dingert,Informe del partido
+118,Dom,2022-10-30,19:30 ,Köln,0.9,1–1,Hoffenheim,"49,000",RheinEnergieSTADION,Frank Willenborg,Informe del partido
+119,,,,,,,,,,,
+120,Vie,2022-11-04,20:30 ,M'Gladbach,1.1,3–1,Stuttgart,"53,178",Stadion im Borussia-Park,Matthias Jöllenbeck,Informe del partido
+121,Sáb,2022-11-05,15:30 ,Dortmund,0.6,3–0,Bochum,"81,365",Signal Iduna Park,Tobias Stieler,Informe del partido
+122,Sáb,2022-11-05,15:30 ,Mainz 05,0.6,0–3,Wolfsburg,"26,750",Mewa Arena,Daniel Siebert,Informe del partido
+123,Sáb,2022-11-05,15:30 ,Augsburg,1.2,1–2,Eint Frankfurt,"30,087",WWK Arena,Deniz Aytekin,Informe del partido
+124,Sáb,2022-11-05,15:30 ,Hertha BSC,1.9,2–3,Bayern Munich,"74,667",Olympiastadion Berlin,Bastian Dankert,Informe del partido
+125,Sáb,2022-11-05,15:30 ,Hoffenheim,1.7,1–3,RB Leipzig,"23,127",PreZero Arena,Martin Petersen,Informe del partido
+126,Sáb,2022-11-05,18:30 ,Werder Bremen,1.4,2–1,Schalke 04,"41,000",Wohninvest-Weserstadion,Felix Brych,Informe del partido
+127,Dom,2022-11-06,15:30 ,Leverkusen,0.3,5–0,Union Berlin,"30,210",BayArena,Robert Schröder,Informe del partido
+128,Dom,2022-11-06,17:30 ,Freiburg,0.5,2–0,Köln,"33,800",Europa-Park Stadion,Florian Badstübner,Informe del partido
+129,,,,,,,,,,,
+130,Mar,2022-11-08,18:30 ,Wolfsburg,1.6,2–0,Dortmund,"28,675",Volkswagen Arena,Christian Dingert,Informe del partido
+131,Mar,2022-11-08,20:30 ,Stuttgart,0.7,2–1,Hertha BSC,"44,500",Mercedes-Benz Arena,Frank Willenborg,Informe del partido
+132,Mar,2022-11-08,20:30 ,Bochum,0.8,2–1,M'Gladbach,"25,900",Vonovia Ruhrstadion,Daniel Schlager,Informe del partido
+133,Mar,2022-11-08,20:30 ,Bayern Munich,1.3,6–1,Werder Bremen,"75,000",Allianz Arena,Robert Hartmann,Informe del partido
+134,Mié,2022-11-09,18:30 ,Köln,1.4,1–2,Leverkusen,"50,000",RheinEnergieSTADION,Tobias Stieler,Informe del partido
+135,Mié,2022-11-09,20:30 ,Union Berlin,0.6,2–2,Augsburg,"22,012",Stadion An der Alten Försterei,Sascha Stegemann,Informe del partido
+136,Mié,2022-11-09,20:30 ,Schalke 04,0.8,1–0,Mainz 05,"58,256",Veltins-Arena,Tobias Reichel,Informe del partido
+137,Mié,2022-11-09,20:30 ,RB Leipzig,0.2,3–1,Freiburg,"41,240",Red Bull Arena,Harm Osmers,Informe del partido
+138,Mié,2022-11-09,20:30 ,Eint Frankfurt,1.8,4–2,Hoffenheim,"49,000",Deutsche Bank Park,Felix Zwayer,Informe del partido
+139,,,,,,,,,,,
+140,Vie,2022-11-11,20:30 ,M'Gladbach,3.0,4–2,Dortmund,"54,042",Stadion im Borussia-Park,Sven Jablonski,Informe del partido
+141,Sáb,2022-11-12,15:30 ,Augsburg,1.1,0–1,Bochum,"28,011",WWK Arena,Felix Brych,Informe del partido
+142,Sáb,2022-11-12,15:30 ,Hoffenheim,0.7,1–2,Wolfsburg,"18,014",PreZero Arena,Daniel Schlager,Informe del partido
+143,Sáb,2022-11-12,15:30 ,Werder Bremen,1.7,1–2,RB Leipzig,"41,500",Wohninvest-Weserstadion,Matthias Jöllenbeck,Informe del partido
+144,Sáb,2022-11-12,15:30 ,Hertha BSC,1.8,2–0,Köln,"60,827",Olympiastadion Berlin,Christian Dingert,Informe del partido
+145,Sáb,2022-11-12,15:30 ,Leverkusen,0.3,2–0,Stuttgart,"30,210",BayArena,Florian Badstübner,Informe del partido
+146,Sáb,2022-11-12,18:30 ,Schalke 04,1.9,0–2,Bayern Munich,"62,271",Veltins-Arena,Felix Zwayer,Informe del partido
+147,Dom,2022-11-13,15:30 ,Mainz 05,1.8,1–1,Eint Frankfurt,"33,305",Mewa Arena,Robert Schröder,Informe del partido
+148,Dom,2022-11-13,17:30 ,Freiburg,1.7,4–1,Union Berlin,"33,800",Europa-Park Stadion,Deniz Aytekin,Informe del partido
+149,,,,,,,,,,,
+150,Vie,2023-01-20,20:30 ,RB Leipzig,0.7,1–1,Bayern Munich,"47,069",Red Bull Arena,Daniel Siebert,Informe del partido
+151,Sáb,2023-01-21,15:30 ,Union Berlin,1.0,3–1,Hoffenheim,"21,747",Stadion An der Alten Försterei,Robert Hartmann,Informe del partido
+152,Sáb,2023-01-21,15:30 ,Stuttgart,1.4,1–1,Mainz 05,"45,903",Mercedes-Benz Arena,Felix Brych,Informe del partido
+153,Sáb,2023-01-21,15:30 ,Bochum,0.9,3–1,Hertha BSC,"26,000",Vonovia Ruhrstadion,Martin Petersen,Informe del partido
+154,Sáb,2023-01-21,15:30 ,Wolfsburg,0.7,6–0,Freiburg,"25,849",Volkswagen Arena,Felix Zwayer,Informe del partido
+155,Sáb,2023-01-21,15:30 ,Eint Frankfurt,1.8,3–0,Schalke 04,"50,000",Deutsche Bank Park,Marco Fritz,Informe del partido
+156,Sáb,2023-01-21,18:30 ,Köln,0.3,7–1,Werder Bremen,"50,000",RheinEnergieSTADION,Robert Schröder,Informe del partido
+157,Dom,2023-01-22,15:30 ,Dortmund,1.7,4–3,Augsburg,"81,365",Signal Iduna Park,Frank Willenborg,Informe del partido
+158,Dom,2023-01-22,17:30 ,M'Gladbach,2.0,2–3,Leverkusen,"53,336",Stadion im Borussia-Park,Harm Osmers,Informe del partido
+159,,,,,,,,,,,
+160,Mar,2023-01-24,18:30 ,Schalke 04,,,RB Leipzig,,Veltins-Arena,,Cara a cara
+161,Mar,2023-01-24,20:30 ,Hoffenheim,,,Stuttgart,,PreZero Arena,,Cara a cara
+162,Mar,2023-01-24,20:30 ,Hertha BSC,,,Wolfsburg,,Olympiastadion Berlin,,Cara a cara
+163,Mar,2023-01-24,20:30 ,Bayern Munich,,,Köln,,Allianz Arena,,Cara a cara
+164,Mié,2023-01-25,18:30 ,Mainz 05,,,Dortmund,,Mewa Arena,,Cara a cara
+165,Mié,2023-01-25,20:30 ,Werder Bremen,,,Union Berlin,,Wohninvest-Weserstadion,,Cara a cara
+166,Mié,2023-01-25,20:30 ,Freiburg,,,Eint Frankfurt,,Europa-Park Stadion,,Cara a cara
+167,Mié,2023-01-25,20:30 ,Augsburg,,,M'Gladbach,,WWK Arena,,Cara a cara
+168,Mié,2023-01-25,20:30 ,Leverkusen,,,Bochum,,BayArena,,Cara a cara
+169,,,,,,,,,,,
+170,Vie,2023-01-27,20:30 ,RB Leipzig,,,Stuttgart,,Red Bull Arena,,Cara a cara
+171,Sáb,2023-01-28,15:30 ,Hoffenheim,,,M'Gladbach,,PreZero Arena,,Cara a cara
+172,Sáb,2023-01-28,15:30 ,Freiburg,,,Augsburg,,Europa-Park Stadion,,Cara a cara
+173,Sáb,2023-01-28,15:30 ,Mainz 05,,,Bochum,,Mewa Arena,,Cara a cara
+174,Sáb,2023-01-28,15:30 ,Werder Bremen,,,Wolfsburg,,Wohninvest-Weserstadion,,Cara a cara
+175,Sáb,2023-01-28,15:30 ,Hertha BSC,,,Union Berlin,,Olympiastadion Berlin,,Cara a cara
+176,Sáb,2023-01-28,18:30 ,Bayern Munich,,,Eint Frankfurt,,Allianz Arena,,Cara a cara
+177,Dom,2023-01-29,15:30 ,Schalke 04,,,Köln,,Veltins-Arena,,Cara a cara
+178,Dom,2023-01-29,17:30 ,Leverkusen,,,Dortmund,,BayArena,,Cara a cara
+179,,,,,,,,,,,
+180,Vie,2023-02-03,20:30 ,Augsburg,,,Leverkusen,,WWK Arena,,Cara a cara
+181,Sáb,2023-02-04,15:30 ,Eint Frankfurt,,,Hertha BSC,,Deutsche Bank Park,,Cara a cara
+182,Sáb,2023-02-04,15:30 ,Bochum,,,Hoffenheim,,Vonovia Ruhrstadion,,Cara a cara
+183,Sáb,2023-02-04,15:30 ,Köln,,,RB Leipzig,,RheinEnergieSTADION,,Cara a cara
+184,Sáb,2023-02-04,15:30 ,Dortmund,,,Freiburg,,Signal Iduna Park,,Cara a cara
+185,Sáb,2023-02-04,15:30 ,Union Berlin,,,Mainz 05,,Stadion An der Alten Försterei,,Cara a cara
+186,Sáb,2023-02-04,18:30 ,M'Gladbach,,,Schalke 04,,Stadion im Borussia-Park,,Cara a cara
+187,Dom,2023-02-05,15:30 ,Stuttgart,,,Werder Bremen,,Mercedes-Benz Arena,,Cara a cara
+188,Dom,2023-02-05,17:30 ,Wolfsburg,,,Bayern Munich,,Volkswagen Arena,,Cara a cara
+189,,,,,,,,,,,
+190,Vie,2023-02-10,20:30 ,Schalke 04,,,Wolfsburg,,Veltins-Arena,,Cara a cara
+191,Sáb,2023-02-11,15:30 ,Bayern Munich,,,Bochum,,Allianz Arena,,Cara a cara
+192,Sáb,2023-02-11,15:30 ,Mainz 05,,,Augsburg,,Mewa Arena,,Cara a cara
+193,Sáb,2023-02-11,15:30 ,Freiburg,,,Stuttgart,,Europa-Park Stadion,,Cara a cara
+194,Sáb,2023-02-11,15:30 ,Hoffenheim,,,Leverkusen,,PreZero Arena,,Cara a cara
+195,Sáb,2023-02-11,15:30 ,Werder Bremen,,,Dortmund,,Wohninvest-Weserstadion,,Cara a cara
+196,Sáb,2023-02-11,18:30 ,RB Leipzig,,,Union Berlin,,Red Bull Arena,,Cara a cara
+197,Dom,2023-02-12,15:30 ,Hertha BSC,,,M'Gladbach,,Olympiastadion Berlin,,Cara a cara
+198,Dom,2023-02-12,17:30 ,Köln,,,Eint Frankfurt,,RheinEnergieSTADION,,Cara a cara
+199,,,,,,,,,,,
+200,Vie,2023-02-17,20:30 ,Augsburg,,,Hoffenheim,,WWK Arena,,Cara a cara
+201,Sáb,2023-02-18,15:30 ,Wolfsburg,,,RB Leipzig,,Volkswagen Arena,,Cara a cara
+202,Sáb,2023-02-18,15:30 ,M'Gladbach,,,Bayern Munich,,Stadion im Borussia-Park,,Cara a cara
+203,Sáb,2023-02-18,15:30 ,Bochum,,,Freiburg,,Vonovia Ruhrstadion,,Cara a cara
+204,Sáb,2023-02-18,15:30 ,Stuttgart,,,Köln,,Mercedes-Benz Arena,,Cara a cara
+205,Sáb,2023-02-18,18:30 ,Eint Frankfurt,,,Werder Bremen,,Deutsche Bank Park,,Cara a cara
+206,Dom,2023-02-19,15:30 ,Union Berlin,,,Schalke 04,,Stadion An der Alten Försterei,,Cara a cara
+207,Dom,2023-02-19,17:30 ,Dortmund,,,Hertha BSC,,Signal Iduna Park,,Cara a cara
+208,Dom,2023-02-19,19:30 ,Leverkusen,,,Mainz 05,,BayArena,,Cara a cara
+209,,,,,,,,,,,
+210,Vie,2023-02-24,20:30 ,Mainz 05,,,M'Gladbach,,Mewa Arena,,Cara a cara
+211,Sáb,2023-02-25,15:30 ,Hertha BSC,,,Augsburg,,Olympiastadion Berlin,,Cara a cara
+212,Sáb,2023-02-25,15:30 ,Hoffenheim,,,Dortmund,,PreZero Arena,,Cara a cara
+213,Sáb,2023-02-25,15:30 ,Werder Bremen,,,Bochum,,Wohninvest-Weserstadion,,Cara a cara
+214,Sáb,2023-02-25,15:30 ,Köln,,,Wolfsburg,,RheinEnergieSTADION,,Cara a cara
+215,Sáb,2023-02-25,15:30 ,RB Leipzig,,,Eint Frankfurt,,Red Bull Arena,,Cara a cara
+216,Sáb,2023-02-25,18:30 ,Schalke 04,,,Stuttgart,,Veltins-Arena,,Cara a cara
+217,Dom,2023-02-26,15:30 ,Freiburg,,,Leverkusen,,Europa-Park Stadion,,Cara a cara
+218,Dom,2023-02-26,17:30 ,Bayern Munich,,,Union Berlin,,Allianz Arena,,Cara a cara
+219,,,,,,,,,,,
+220,Vie,2023-03-03,20:30 ,Dortmund,,,RB Leipzig,,Signal Iduna Park,,Cara a cara
+221,Sáb,2023-03-04,15:30 ,Bochum,,,Schalke 04,,Vonovia Ruhrstadion,,Cara a cara
+222,Sáb,2023-03-04,15:30 ,M'Gladbach,,,Freiburg,,Stadion im Borussia-Park,,Cara a cara
+223,Sáb,2023-03-04,15:30 ,Mainz 05,,,Hoffenheim,,Mewa Arena,,Cara a cara
+224,Sáb,2023-03-04,15:30 ,Augsburg,,,Werder Bremen,,WWK Arena,,Cara a cara
+225,Sáb,2023-03-04,15:30 ,Union Berlin,,,Köln,,Stadion An der Alten Försterei,,Cara a cara
+226,Sáb,2023-03-04,18:30 ,Stuttgart,,,Bayern Munich,,Mercedes-Benz Arena,,Cara a cara
+227,Dom,2023-03-05,15:30 ,Leverkusen,,,Hertha BSC,,BayArena,,Cara a cara
+228,Dom,2023-03-05,17:30 ,Wolfsburg,,,Eint Frankfurt,,Volkswagen Arena,,Cara a cara
+229,,,,,,,,,,,
+230,Vie,2023-03-10,20:30 ,Köln,,,Bochum,,RheinEnergieSTADION,,Cara a cara
+231,Sáb,2023-03-11,15:30 ,Eint Frankfurt,,,Stuttgart,,Deutsche Bank Park,,Cara a cara
+232,Sáb,2023-03-11,15:30 ,Bayern Munich,,,Augsburg,,Allianz Arena,,Cara a cara
+233,Sáb,2023-03-11,15:30 ,Hertha BSC,,,Mainz 05,,Olympiastadion Berlin,,Cara a cara
+234,Sáb,2023-03-11,15:30 ,RB Leipzig,,,M'Gladbach,,Red Bull Arena,,Cara a cara
+235,Sáb,2023-03-11,18:30 ,Schalke 04,,,Dortmund,,Veltins-Arena,,Cara a cara
+236,Dom,2023-03-12,15:30 ,Freiburg,,,Hoffenheim,,Europa-Park Stadion,,Cara a cara
+237,Dom,2023-03-12,17:30 ,Werder Bremen,,,Leverkusen,,Wohninvest-Weserstadion,,Cara a cara
+238,Dom,2023-03-12,19:30 ,Wolfsburg,,,Union Berlin,,Volkswagen Arena,,Cara a cara
+239,,,,,,,,,,,
+240,Vie,2023-03-17,20:30 ,M'Gladbach,,,Werder Bremen,,Stadion im Borussia-Park,,Cara a cara
+241,Sáb,2023-03-18,15:30 ,Augsburg,,,Schalke 04,,WWK Arena,,Cara a cara
+242,Sáb,2023-03-18,15:30 ,Stuttgart,,,Wolfsburg,,Mercedes-Benz Arena,,Cara a cara
+243,Sáb,2023-03-18,15:30 ,Hoffenheim,,,Hertha BSC,,PreZero Arena,,Cara a cara
+244,Sáb,2023-03-18,15:30 ,Bochum,,,RB Leipzig,,Vonovia Ruhrstadion,,Cara a cara
+245,Sáb,2023-03-18,18:30 ,Dortmund,,,Köln,,Signal Iduna Park,,Cara a cara
+246,Dom,2023-03-19,15:30 ,Union Berlin,,,Eint Frankfurt,,Stadion An der Alten Försterei,,Cara a cara
+247,Dom,2023-03-19,17:30 ,Leverkusen,,,Bayern Munich,,BayArena,,Cara a cara
+248,Dom,2023-03-19,19:30 ,Mainz 05,,,Freiburg,,Mewa Arena,,Cara a cara
+249,,,,,,,,,,,
+250,Sáb,2023-04-01,,Werder Bremen,,,Hoffenheim,,Wohninvest-Weserstadion,,Cara a cara
+251,Sáb,2023-04-01,,Union Berlin,,,Stuttgart,,Stadion An der Alten Försterei,,Cara a cara
+252,Sáb,2023-04-01,,Wolfsburg,,,Augsburg,,Volkswagen Arena,,Cara a cara
+253,Sáb,2023-04-01,,Schalke 04,,,Leverkusen,,Veltins-Arena,,Cara a cara
+254,Sáb,2023-04-01,,Eint Frankfurt,,,Bochum,,Deutsche Bank Park,,Cara a cara
+255,Sáb,2023-04-01,,RB Leipzig,,,Mainz 05,,Red Bull Arena,,Cara a cara
+256,Sáb,2023-04-01,,Bayern Munich,,,Dortmund,,Allianz Arena,,Cara a cara
+257,Sáb,2023-04-01,,Köln,,,M'Gladbach,,RheinEnergieSTADION,,Cara a cara
+258,Sáb,2023-04-01,,Freiburg,,,Hertha BSC,,Europa-Park Stadion,,Cara a cara
+259,,,,,,,,,,,
+260,Sáb,2023-04-08,,Dortmund,,,Union Berlin,,Signal Iduna Park,,Cara a cara
+261,Sáb,2023-04-08,,Freiburg,,,Bayern Munich,,Europa-Park Stadion,,Cara a cara
+262,Sáb,2023-04-08,,M'Gladbach,,,Wolfsburg,,Stadion im Borussia-Park,,Cara a cara
+263,Sáb,2023-04-08,,Hertha BSC,,,RB Leipzig,,Olympiastadion Berlin,,Cara a cara
+264,Sáb,2023-04-08,,Mainz 05,,,Werder Bremen,,Mewa Arena,,Cara a cara
+265,Sáb,2023-04-08,,Hoffenheim,,,Schalke 04,,PreZero Arena,,Cara a cara
+266,Sáb,2023-04-08,,Leverkusen,,,Eint Frankfurt,,BayArena,,Cara a cara
+267,Sáb,2023-04-08,,Bochum,,,Stuttgart,,Vonovia Ruhrstadion,,Cara a cara
+268,Sáb,2023-04-08,,Augsburg,,,Köln,,WWK Arena,,Cara a cara
+269,,,,,,,,,,,
+270,Sáb,2023-04-15,,Werder Bremen,,,Freiburg,,Wohninvest-Weserstadion,,Cara a cara
+271,Sáb,2023-04-15,,Eint Frankfurt,,,M'Gladbach,,Deutsche Bank Park,,Cara a cara
+272,Sáb,2023-04-15,,Wolfsburg,,,Leverkusen,,Volkswagen Arena,,Cara a cara
+273,Sáb,2023-04-15,,Union Berlin,,,Bochum,,Stadion An der Alten Försterei,,Cara a cara
+274,Sáb,2023-04-15,,Bayern Munich,,,Hoffenheim,,Allianz Arena,,Cara a cara
+275,Sáb,2023-04-15,,Köln,,,Mainz 05,,RheinEnergieSTADION,,Cara a cara
+276,Sáb,2023-04-15,,Stuttgart,,,Dortmund,,Mercedes-Benz Arena,,Cara a cara
+277,Sáb,2023-04-15,,Schalke 04,,,Hertha BSC,,Veltins-Arena,,Cara a cara
+278,Sáb,2023-04-15,,RB Leipzig,,,Augsburg,,Red Bull Arena,,Cara a cara
+279,,,,,,,,,,,
+280,Sáb,2023-04-22,,Augsburg,,,Stuttgart,,WWK Arena,,Cara a cara
+281,Sáb,2023-04-22,,Leverkusen,,,RB Leipzig,,BayArena,,Cara a cara
+282,Sáb,2023-04-22,,Mainz 05,,,Bayern Munich,,Mewa Arena,,Cara a cara
+283,Sáb,2023-04-22,,Bochum,,,Wolfsburg,,Vonovia Ruhrstadion,,Cara a cara
+284,Sáb,2023-04-22,,Dortmund,,,Eint Frankfurt,,Signal Iduna Park,,Cara a cara
+285,Sáb,2023-04-22,,Hertha BSC,,,Werder Bremen,,Olympiastadion Berlin,,Cara a cara
+286,Sáb,2023-04-22,,Hoffenheim,,,Köln,,PreZero Arena,,Cara a cara
+287,Sáb,2023-04-22,,M'Gladbach,,,Union Berlin,,Stadion im Borussia-Park,,Cara a cara
+288,Sáb,2023-04-22,,Freiburg,,,Schalke 04,,Europa-Park Stadion,,Cara a cara
+289,,,,,,,,,,,
+290,Sáb,2023-04-29,,Köln,,,Freiburg,,RheinEnergieSTADION,,Cara a cara
+291,Sáb,2023-04-29,,Bochum,,,Dortmund,,Vonovia Ruhrstadion,,Cara a cara
+292,Sáb,2023-04-29,,Stuttgart,,,M'Gladbach,,Mercedes-Benz Arena,,Cara a cara
+293,Sáb,2023-04-29,,RB Leipzig,,,Hoffenheim,,Red Bull Arena,,Cara a cara
+294,Sáb,2023-04-29,,Union Berlin,,,Leverkusen,,Stadion An der Alten Försterei,,Cara a cara
+295,Sáb,2023-04-29,,Bayern Munich,,,Hertha BSC,,Allianz Arena,,Cara a cara
+296,Sáb,2023-04-29,,Wolfsburg,,,Mainz 05,,Volkswagen Arena,,Cara a cara
+297,Sáb,2023-04-29,,Schalke 04,,,Werder Bremen,,Veltins-Arena,,Cara a cara
+298,Sáb,2023-04-29,,Eint Frankfurt,,,Augsburg,,Deutsche Bank Park,,Cara a cara
+299,,,,,,,,,,,
+300,Sáb,2023-05-06,,Hoffenheim,,,Eint Frankfurt,,PreZero Arena,,Cara a cara
+301,Sáb,2023-05-06,,Hertha BSC,,,Stuttgart,,Olympiastadion Berlin,,Cara a cara
+302,Sáb,2023-05-06,,Freiburg,,,RB Leipzig,,Europa-Park Stadion,,Cara a cara
+303,Sáb,2023-05-06,,Leverkusen,,,Köln,,BayArena,,Cara a cara
+304,Sáb,2023-05-06,,Werder Bremen,,,Bayern Munich,,Wohninvest-Weserstadion,,Cara a cara
+305,Sáb,2023-05-06,,Mainz 05,,,Schalke 04,,Mewa Arena,,Cara a cara
+306,Sáb,2023-05-06,,M'Gladbach,,,Bochum,,Stadion im Borussia-Park,,Cara a cara
+307,Sáb,2023-05-06,,Dortmund,,,Wolfsburg,,Signal Iduna Park,,Cara a cara
+308,Sáb,2023-05-06,,Augsburg,,,Union Berlin,,WWK Arena,,Cara a cara
+309,,,,,,,,,,,
+310,Sáb,2023-05-13,,RB Leipzig,,,Werder Bremen,,Red Bull Arena,,Cara a cara
+311,Sáb,2023-05-13,,Eint Frankfurt,,,Mainz 05,,Deutsche Bank Park,,Cara a cara
+312,Sáb,2023-05-13,,Stuttgart,,,Leverkusen,,Mercedes-Benz Arena,,Cara a cara
+313,Sáb,2023-05-13,,Köln,,,Hertha BSC,,RheinEnergieSTADION,,Cara a cara
+314,Sáb,2023-05-13,,Wolfsburg,,,Hoffenheim,,Volkswagen Arena,,Cara a cara
+315,Sáb,2023-05-13,,Dortmund,,,M'Gladbach,,Signal Iduna Park,,Cara a cara
+316,Sáb,2023-05-13,,Union Berlin,,,Freiburg,,Stadion An der Alten Försterei,,Cara a cara
+317,Sáb,2023-05-13,,Bochum,,,Augsburg,,Vonovia Ruhrstadion,,Cara a cara
+318,Sáb,2023-05-13,,Bayern Munich,,,Schalke 04,,Allianz Arena,,Cara a cara
+319,,,,,,,,,,,
+320,Sáb,2023-05-20,,Schalke 04,,,Eint Frankfurt,,Veltins-Arena,,Cara a cara
+321,Sáb,2023-05-20,,Werder Bremen,,,Köln,,Wohninvest-Weserstadion,,Cara a cara
+322,Sáb,2023-05-20,,Mainz 05,,,Stuttgart,,Mewa Arena,,Cara a cara
+323,Sáb,2023-05-20,,Freiburg,,,Wolfsburg,,Europa-Park Stadion,,Cara a cara
+324,Sáb,2023-05-20,,Augsburg,,,Dortmund,,WWK Arena,,Cara a cara
+325,Sáb,2023-05-20,,Hertha BSC,,,Bochum,,Olympiastadion Berlin,,Cara a cara
+326,Sáb,2023-05-20,,Bayern Munich,,,RB Leipzig,,Allianz Arena,,Cara a cara
+327,Sáb,2023-05-20,,Leverkusen,,,M'Gladbach,,BayArena,,Cara a cara
+328,Sáb,2023-05-20,,Hoffenheim,,,Union Berlin,,PreZero Arena,,Cara a cara
+329,,,,,,,,,,,
+330,Sáb,2023-05-27,,RB Leipzig,,,Schalke 04,,Red Bull Arena,,Cara a cara
+331,Sáb,2023-05-27,,Bochum,,,Leverkusen,,Vonovia Ruhrstadion,,Cara a cara
+332,Sáb,2023-05-27,,Union Berlin,,,Werder Bremen,,Stadion An der Alten Försterei,,Cara a cara
+333,Sáb,2023-05-27,,Eint Frankfurt,,,Freiburg,,Deutsche Bank Park,,Cara a cara
+334,Sáb,2023-05-27,,Dortmund,,,Mainz 05,,Signal Iduna Park,,Cara a cara
+335,Sáb,2023-05-27,,M'Gladbach,,,Augsburg,,Stadion im Borussia-Park,,Cara a cara
+336,Sáb,2023-05-27,,Stuttgart,,,Hoffenheim,,Mercedes-Benz Arena,,Cara a cara
+337,Sáb,2023-05-27,,Wolfsburg,,,Hertha BSC,,Volkswagen Arena,,Cara a cara
+338,Sáb,2023-05-27,,Köln,,,Bayern Munich,,RheinEnergieSTADION,,Cara a cara

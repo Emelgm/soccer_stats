@@ -1,6 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 import pandas as pd
+from datetime import datetime
 
 # ordenar estructura html
 def leagues_list(url, url_web):
@@ -70,17 +71,17 @@ def detail_matches(url, url_web):
     home_team = [link.get_text() for link in matches]
     output_text=[home_team[i:i + len(head) - 2] for i in range(0, len(home_team), len(head) - 1)]
 
-    for item in output_text:
-        for i in item:
-            #print(i)
-            if i == '':
-                item.remove(i)
-        # n += 1
-        # print(n)
-        # print('sublista: ',item)
-        # print('longitud: ', len(item))
-        if len(item)<=6:
-            output_text.remove(item)
+    # for item in output_text:
+    #     for i in item:
+    #         #print(i)
+    #         if i == '':
+    #             item.remove(i)
+    #     # n += 1
+    #     # print(n)
+    #     # print('sublista: ',item)
+    #     # print('longitud: ', len(item))
+    #     if len(item)<=6:
+    #         output_text.remove(item)
 
     return output_text, output_links, head[1:]
 
@@ -93,11 +94,12 @@ def team_detail(url, detail_matches, detail_link):
         detail_team.append(item[0]+item[1])
     select_team = input('Choose team: ')
     team = []
+    date = datetime.today().strftime('%Y-%m-%d')
     
     for idx,item in enumerate(detail_team):
         for i in item:
             if select_team == i:
-                #if item[5] != '':
+                #if item[1] <= date:
                 team.append(detail_team[idx])
 
     return team
@@ -108,7 +110,8 @@ def df_file(data, headers):
     for item in data:
         result.append(dict(zip(headers,item)))
     df=pd.DataFrame(result)
-    df.to_csv('./data/raw/matches.csv')
+    #df.to_csv('./data/raw/matches.csv')
+
     return df
 
 
@@ -118,12 +121,15 @@ def run():
 
     link_page = requests.get(URL)
     print(f'Respuesta HTTP: {link_page.status_code}')
+    # listado de ligas disponibles
     dict_list = leagues_list(url, link_page)
     league_pague = links_list(dict_list)
+    # tablas de marcadores y links
     output_text, output_link, head = detail_matches(url, league_pague)
-
-    #print(team_detail(url, output_text, output_link))
-    print(df_file(output_text, head))
+    # filtrar historial por equipo
+    print(team_detail(url, output_text, output_link))
+    # generar dataframe
+    #print(df_file(output_text, head))
 
 
 if __name__=='__main__':
